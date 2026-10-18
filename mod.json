@@ -8,6 +8,9 @@
 	"version": "v1.0.0",
 	"developer": "fatminguscat",
 	"description": "Watch your stress levels rise as you play.",
+	"links": {
+		"source": "https://github.com/fatminguscat/cortisol-meter"
+	},
 	"tags": [
 		"interface",
 		"content"
