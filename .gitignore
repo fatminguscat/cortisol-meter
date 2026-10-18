@@ -1,0 +1,7 @@
+# build output and local logs (they contain local paths)
+build/
+build-*/
+*.log
+.cache/
+.vscode/
+.vs/

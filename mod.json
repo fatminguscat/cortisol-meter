@@ -1,0 +1,52 @@
+{
+	"geode": "5.8.2",
+	"gd": {
+		"win": "2.2081"
+	},
+	"id": "fatminguscat.cortisolmeter",
+	"name": "Cortisol Meter",
+	"version": "v1.0.0",
+	"developer": "fatminguscat",
+	"description": "Watch your stress levels rise as you play.",
+	"tags": [
+		"interface",
+		"content"
+	],
+	"resources": {
+		"sprites": [
+			"resources/*.png"
+		]
+	},
+	"settings": {
+		"enabled": {
+			"name": "Enabled",
+			"type": "bool",
+			"default": true
+		},
+		"scale": {
+			"name": "Size",
+			"type": "float",
+			"default": 1.0,
+			"min": 0.25,
+			"max": 2.0
+		},
+		"title-weights": {
+			"name": "What Raises It",
+			"type": "title"
+		},
+		"weight-progress": {
+			"name": "Level Progress",
+			"type": "float",
+			"default": 0.5,
+			"min": 0.0,
+			"max": 1.0
+		},
+		"weight-cps": {
+			"name": "Clicks Per Second",
+			"type": "float",
+			"default": 0.35,
+			"min": 0.0,
+			"max": 1.0
+		}
+	}
+}
